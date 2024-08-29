@@ -1,0 +1,10 @@
+.navbar {
+  background: #6a1b9a;
+  height: 60px;
+}
+
+.nav ul li {
+  display: inline-block;
+  margin-right: 25px;
+  
+}

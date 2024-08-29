@@ -1,0 +1,27 @@
+.section {
+  background: #f3e5f5;
+  padding: 20px;
+}
+
+.section h2 {
+  text-align: center;
+}
+
+/* this is for the Contact FORM */
+.contact {
+  margin: 20px;
+}
+
+.contact input {
+  display: block;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  width: 100%;
+}
+
+.portfolio {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  border-radius: 8px;
+}
