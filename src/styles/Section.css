@@ -1,5 +1,5 @@
 .section {
-  background: #f3e5f5;
+  background: #c747db;
   padding: 20px;
 }
 
@@ -19,9 +19,56 @@
   width: 100%;
 }
 
-.portfolio {
+.css {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   border-radius: 8px;
+  padding: 5px;
+  width: 150px;
+}
+
+.golf {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  border-radius: 2px;
+  padding: 5px;
+  width: 150px;
+}
+.js {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  border-radius: 8px;
+  padding: 5px;
+  width: 150px;
+}
+.masters {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  border-radius: 8px;
+  padding: 5px;
+  width: 150px;
+}
+.reactImage {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  border-radius: 8px;
+  padding: 5px;
+  width: 150px;
+}
+.sql {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  border-radius: 8px;
+  padding: 5px;
+  width: 150px;
+}
+
+.footer ul{
+  list-style-type: square;
 }

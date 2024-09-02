@@ -1,4 +1,5 @@
-import { createRoot } from 'react-dom/client'
+import { createRoot } from 'react-dom/client';
+import './styles/Section.css';
 import ReactDOM from 'react-dom/client';
 import App from './App.jsx';
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -17,7 +18,7 @@ const router = createBrowserRouter([
     children: [
       {
         index: true,
-        element: <AboutMe />,   //1st page will be out home page
+        element: <AboutMe />,   //1st page will be home page
       },
       {
         path: '/contact',

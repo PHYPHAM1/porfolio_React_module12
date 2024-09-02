@@ -29,8 +29,9 @@ export default function Contacts() {
     e.preventDefault();
 
     //first we check to see if the email is not valid or if the username is empty. if so we set an error message to be displayed on the page.
-    if(!validEmail(email) || !fullName){
-      setErrorMessage('Email or fullname is invalid');
+    if(!validEmail(email) || !fullName || !message){
+      setErrorMessage('Email or fullname is invalid or a message');
+      
       return;
     }
     //we want to clear out the input after a successful registration
