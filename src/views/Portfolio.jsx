@@ -11,7 +11,7 @@ export default function Portfolilo() {
         
         </div>
         <div className='golf'>
-        
+        <a href="https://github.com"> <img src={ IMAGES.logoCss } alt="" /></a>
         </div>
         <div className='js'>
         <img src={ IMAGES.logoJs } alt="" />
